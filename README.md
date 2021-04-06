@@ -43,6 +43,23 @@ is the sub folder containing the interface
 
 ## test/java/com.example.demo
  is the sub folder containing all the java files to test the execution of the solution
+ 
+ ## Note: 
+ 
+ Run the RestAPIController
+ path: src/main/java/com.example.demo/controller/RestProgram
+ 
+ After the service is up, open the browser with url http://localhost:8080/api/1 and check for the login page
+ with credentials
+ UserName as user
+ Password as password
+ 
+ Then click on signin button and check the output with its corresponding roman number
+ 
+ Try with different API calls
+ http://localhost:8080/api/10
+ http://localhost:8080/api/257
+
 
 # The Challenge Solved Here -> Roman Numerals
 In whatever language you prefer, write a class that implements the following interface (example given in Java):
