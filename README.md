@@ -4,31 +4,45 @@ Use this project to convert Arabic numerals to Roman numerals easily and efficie
 # Structure of files in this directory:
 
 This is the Root directory
-::> bin (contains two subfolders)
+::> src (contains two subfolders)
 
-    -> RomanNumeralConversionProgram (contains 4 files)
+    -> main (contains 6 files)
     
-    -> testsForRomanNumeralConversion (contains 4 files)
+    -> test (contains 5 files)
 
-::> src (contains two subfolders and one README.txt)
+::> main (contains two subfolders)
 
-    -> RomanNumeralConversionProgram (contains 4 files)
     
-    -> testsForRomanNumeralConversion (contains 4 files)
-    
-    -> README.txt (More details and further explanation)
-    
-## bin/MainRomanNumeralConversionProgram 
+    -> java (More details and further explanation)
+       
+       -> com.example.demo (contains 6 files)
+       
+          -> controller (contains 1 file)
+          
+    -> resources
+## controller has RestProgram file  
+## com.example.demo has below 6 files   
+
+## com.example.demo/ArabicToRomanNumeralDictionary 
+is the sub folder containing program executables for ArabicToRomanNumeralDictionary
+ 
+## com.example.demo/ArabicToRomanNumeralGenerator 
 is the sub folder containing program executables for ArabicToRomanNumeralGenerator
 
-## bin/TestsForRomanNumeralConversion 
-is the sub folder containing program executables to test the execution of the solution
+## com.example.demo/DemoApplication 
+is the sub folder containing program executables to run the spring boot application
 
-## src/MainRomanNumeralConversionProgram 
-is the sub folder containing all the java files for ArabicToRomanNumeralGenerator
+## com.example.demo/MvcConfig 
+ is the sub folder containing program executables for the login registry service
+ 
+## com.example.demo/WebSecurityConfig 
+ is the sub folder containing program executables for the user authentication
 
-## src/TestsForRomanNumeralConversion 
-is the sub folder containing all the java files to test the execution of the solution
+## com.example.demo/RomanNumeralGenerator 
+is the sub folder containing the interface
+
+## test/java/com.example.demo
+ is the sub folder containing all the java files to test the execution of the solution
 
 # The Challenge Solved Here -> Roman Numerals
 In whatever language you prefer, write a class that implements the following interface (example given in Java):
